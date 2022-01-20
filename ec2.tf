@@ -6,6 +6,6 @@ resource "aws_instance" "My-ec2" {
         instance_type=var.instance_type
         ami=var.ec2_ami
         tags ={
-                Name=var.env_name
+                Name=var.instance_name
         }
 }
