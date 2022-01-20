@@ -5,7 +5,6 @@ variable "instance_type" {
 		Windows="windows.tfvars"
 	}
 }
-}
 variable "ec2_ami" {
   type=map
 	default={
@@ -20,6 +19,6 @@ variable "env_name"{
 		Windows="windows.tfvars"
 	}
 }
-}
+
 
 
