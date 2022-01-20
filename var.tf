@@ -4,4 +4,6 @@ variable "ec2_ami" {
 }
 variable "instance_name"{
 }
+variable "env_name" {
+}
 
