@@ -7,6 +7,7 @@ resource "aws_instance" "My-ec2" {
         ami=var.ec2_ami
         tags ={
                 Name=var.instance_name
+                env_name = "${var.env_name}"
         }
 }
 
