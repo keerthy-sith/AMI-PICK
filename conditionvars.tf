@@ -1,3 +1,0 @@
-variable "filecheck" {
- default=true
-}
